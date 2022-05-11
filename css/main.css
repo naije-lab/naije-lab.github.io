@@ -1172,7 +1172,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #49ffff;
+  background: #25ff38;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1963,6 +1963,13 @@ pre .javascript .function {
 }
 #qr p {
   text-align: center;
+}
+.post-body p a {
+  color: #708090;
+  border-bottom: none;
+}
+.post-body p a:hover {
+  color: #039;
 }
 .category-all-page .category-all-title {
   text-align: center;
